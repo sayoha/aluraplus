@@ -1,14 +1,40 @@
 :root {
     --branco-principal: #FFFFFF;
+    font-size:12px;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
 }
 body {
     background-color: var(--cor-de-fundo);
+    border-radius: 5px;
+    padding: 1em;
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    display: block;
     }
     * {
         margin: 0;
         padding: 0;
         }
+        .container__botao {
+            background-color: var(--botao-azul);
+            }
+            .container {
+                height: 100vh;
+                display:grid;
+                grid-template-columns: 50% 50%;
+                --cor-de-fundo: #00030C;
+--fonte-principal: ‘Inter’;
+}
+
+
+    
+                
+                
+                
+                
+
+        
+            
+            
